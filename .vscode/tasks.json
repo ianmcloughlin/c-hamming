@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0"
+  ,"_runner": "terminal"
+  , "tasks": [
+    {
+      "taskName": "Compile",
+      "command": "make",
+      "isShellCommand": true,
+      "isBuildCommand": true,
+      "showOutput": "always",
+      "args": ["${relativeFile}"],
+      "presentation": {"panel": "new"},
+    }
+  ]
+}
